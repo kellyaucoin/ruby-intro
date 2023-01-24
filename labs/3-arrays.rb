@@ -15,3 +15,19 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# Lab answers:
+
+kelly_list = ["milk", "eggs", "bacon", "cookies"]
+katie_list =  ["beer", "cookies", "apples"]
+
+combined_list = kelly_list + katie_list
+combined_list_sorted = combined_list.sort
+combined_list_sorted_unique = combined_list_sorted.uniq
+
+puts "buy #{combined_list_sorted_unique[0]}"
+puts "buy #{combined_list_sorted_unique[1]}"
+puts "buy #{combined_list_sorted_unique[2]}"
+puts "buy #{combined_list_sorted_unique[3]}"
+puts "buy #{combined_list_sorted_unique[4]}"
+puts "buy #{combined_list_sorted_unique[5]}"
